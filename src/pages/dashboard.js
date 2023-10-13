@@ -118,7 +118,7 @@ function ResponsiveDrawer(props) {
           </ListItemButton>
         ))}
         <a
-          href="mailto:saptrustservice@gmail.com"
+          href="mailto:Bitmaxservice@gmail.com"
           style={{ textDecoration: "none", color: "inherit" }}
         >
           <ListItemButton>

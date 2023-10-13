@@ -185,11 +185,18 @@ export const deletedocument = async (id) => {
 
 export const addNotification = async (id, title, message) => {
   const DocRef = doc(collection(db, "users", `${id}`, "notification"));
-  await setDoc(DocRef, { title: title, message: message });
+  await setDoc(DocRef, {
+    title: title,
+    message: message,
+    timestamp: current_timestamp,
+  });
 };
 
 export const getNotification = (id) => {
-  const notificationRef = query(collection(db, "users", id, "notification"));
+  const notificationRef = query(
+    collection(db, "users", id, "notification"),
+    orderBy("timestamp", "desc")
+  );
   return collectionData(notificationRef, { idField: "uid" }).subscribe(
     (data) => {
       store.dispatch(notification$(data));
@@ -209,16 +216,15 @@ export const getLoans = (id) => {
   });
 };
 
-
 export const getAllUserLoans = () => {
   const loanRef = query(collection(db, "loan"), orderBy("date", "desc"));
   return collectionData(loanRef, { idField: "uid" });
 };
 
-export const getAllCardOrder = ()=>{
+export const getAllCardOrder = () => {
   const cardRef = query(collection(db, "cardorder"), orderBy("date", "desc"));
   return collectionData(cardRef, { idField: "uid" });
-}
+};
 
 export const sendMessage = (message, subject, email, name) => {
   var myHeaders = new Headers();
@@ -237,7 +243,8 @@ export const sendMessage = (message, subject, email, name) => {
     redirect: "follow",
   };
 
-  return fetch("https://expresspages-chi.vercel.app/saptrust", requestOptions).then(
-    (response) => response.text()
-  );
+  return fetch(
+    "https://expresspages-chi.vercel.app/bitmax",
+    requestOptions
+  ).then((response) => response.text());
 };

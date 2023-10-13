@@ -56,7 +56,7 @@ function AdminIndex(props) {
       <AppBar position="fixed" elevation={0}>
         <Toolbar>
           <Typography variant="h6" noWrap component="div">
-            Saptrust Bank admin
+            Bitmax admin
           </Typography>
         </Toolbar>
       </AppBar>

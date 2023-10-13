@@ -1,7 +1,7 @@
 import { useMediaQuery, useTheme } from "@mui/material";
 import { makeStyles } from "@mui/styles";
 import React from "react";
-import logo from "../images/logo.svg";
+import logo from "../images/logo.png";
 
 const useStyles = makeStyles((theme) => ({
   avatar: {
@@ -18,7 +18,7 @@ function Logo() {
       <img
         src={logo}
         height={
-          useMediaQuery(useTheme().breakpoints.up("sm")) ? "80px" : "80px"
+          useMediaQuery(useTheme().breakpoints.up("sm")) ? "60px" : "60px"
         }
         alt="Enrichement FCU"
       />
