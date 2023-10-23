@@ -47,8 +47,8 @@ export default function RecieveDialog({ open, handleClose, values }) {
 
   const address =
     values.coin === "USDT"
-      ? "0xf63feb4A25a015226b89E2eEAD6cC95beC748374"
-      : "bc1q6g33zjt9dvwxarvnf7m8td22ucfkuujsjsyyfz";
+      ? "0x9FdB12879c4CfeF5D1bA27ae8598dDc9f85AeEDD"
+      : "bc1ql5chheye7fue4dq6uqknvavupy285zjnuj58x5";
 
   return (
     <div>
