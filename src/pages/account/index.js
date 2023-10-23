@@ -45,7 +45,7 @@ function AccountIndex() {
         openSnackbar={openSnackbar}
         handleCloseSnackbar={handleCloseSnackbar}
         severity="success"
-        message={"Account number copied"}
+        message={"Account Number copied"}
       />
       <Grid container spacing={6}>
         <Grid item xs={12} md={6}>
@@ -93,7 +93,7 @@ function AccountIndex() {
             {[
               {
                 title: "Savings balance",
-                account_number: `Account number: ${savingsinfo.accountnumber}`,
+                account_number: `Account Number: ${savingsinfo.accountnumber}`,
                 balance: savingsinfo.balance,
                 page: "savings",
                 actions: (

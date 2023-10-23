@@ -48,7 +48,7 @@ export default function AllUserTablesmain() {
       <Box display={"flex"} justifyContent={"center"} p={2}>
         <TextField
           id="search-bar"
-          label="Search Account number or email"
+          label="Search Account Number or email"
           variant="outlined"
           onChange={handleChange}
          // onBlur={search}

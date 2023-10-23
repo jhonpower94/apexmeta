@@ -66,7 +66,7 @@ export default function Local({ values, handleChange, submitForm, loading }) {
           <TextField
             required
             id="outlined-basic"
-            label="Account number"
+            label="Account Number"
             name="accountnumber"
             constiant="outlined"
             onChange={handleChange}
