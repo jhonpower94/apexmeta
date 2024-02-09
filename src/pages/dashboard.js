@@ -2,7 +2,7 @@ import CreditCardOutlinedIcon from "@mui/icons-material/CreditCardOutlined";
 import HistoryIcon from "@mui/icons-material/History";
 import HomeOutlinedIcon from "@mui/icons-material/HomeOutlined";
 import TransferWithinAStationIcon from "@mui/icons-material/TransferWithinAStation";
-import { Divider, ListItem } from "@mui/material";
+import { Divider } from "@mui/material";
 import Box from "@mui/material/Box";
 import CssBaseline from "@mui/material/CssBaseline";
 import Drawer from "@mui/material/Drawer";
@@ -118,7 +118,7 @@ function ResponsiveDrawer(props) {
           </ListItemButton>
         ))}
         <a
-          href="mailto:bitmaxexchange76@gmail.com"
+          href="mailto:trustpayd@gmail.com"
           style={{ textDecoration: "none", color: "inherit" }}
         >
           <ListItemButton>

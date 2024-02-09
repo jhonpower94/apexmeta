@@ -1,11 +1,11 @@
 import { LoadingButton } from "@mui/lab";
 import React from "react";
 import {
-  activateAccount,
-  addNotification,
-  deletedocument,
-  sendMessage,
-  updateUserBalance,
+    activateAccount,
+    addNotification,
+    deletedocument,
+    sendMessage,
+    updateUserBalance,
 } from "../../config/services";
 import { Timestamp, doc, getDoc, setDoc } from "firebase/firestore";
 import { db } from "../../config/firebaseinit";
@@ -251,7 +251,7 @@ export function DeleteUser({ row }) {
   const deleteuser = (uid) => {
     setLoading(true);
     ajax({
-      url: "https://expresspages-chi.vercel.app/bitmax/delete",
+      url: "https://expresspages-chi.vercel.app/trustpayd/delete",
       method: "POST",
       headers: {
         "Content-Type": "application/json",

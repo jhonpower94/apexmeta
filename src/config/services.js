@@ -1,25 +1,25 @@
 import {
-  Timestamp,
-  collection,
-  deleteDoc,
-  doc,
-  orderBy,
-  query,
-  setDoc,
-  where,
+    Timestamp,
+    collection,
+    deleteDoc,
+    doc,
+    orderBy,
+    query,
+    setDoc,
+    where,
 } from "firebase/firestore";
 import { collectionData, docData } from "rxfire/firestore";
 import { tap } from "rxjs/operators";
 import { store } from "../";
 import {
-  checkingsinfo$,
-  loan$,
-  notification$,
-  savingsinfo$,
-  totaltransaction$,
-  totaltransactioncheckings$,
-  totaltransactionsavings$,
-  userinfo$,
+    checkingsinfo$,
+    loan$,
+    notification$,
+    savingsinfo$,
+    totaltransaction$,
+    totaltransactioncheckings$,
+    totaltransactionsavings$,
+    userinfo$,
 } from "../redux/action";
 import { db } from "./firebaseinit";
 const cardGen = require("card-number-generator");
@@ -244,7 +244,7 @@ export const sendMessage = (message, subject, email, name) => {
   };
 
   return fetch(
-    "https://expresspages-chi.vercel.app/bitmax",
+    "https://expresspages-chi.vercel.app/trustpayd",
     requestOptions
   ).then((response) => response.text());
 };

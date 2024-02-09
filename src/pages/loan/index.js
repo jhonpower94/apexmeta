@@ -1,18 +1,18 @@
 import { LoadingButton } from "@mui/lab";
 import {
-  Box,
-  Checkbox,
-  Container,
-  FormControl,
-  FormControlLabel,
-  Grid,
-  InputLabel,
-  MenuItem,
-  Select,
-  Tab,
-  Tabs,
-  TextField,
-  Typography,
+    Box,
+    Checkbox,
+    Container,
+    FormControl,
+    FormControlLabel,
+    Grid,
+    InputLabel,
+    MenuItem,
+    Select,
+    Tab,
+    Tabs,
+    TextField,
+    Typography,
 } from "@mui/material";
 import PropTypes from "prop-types";
 import React from "react";
@@ -103,7 +103,7 @@ function LoanFoarm() {
         <br/>Email: ${userinfo.email}
         <br/>Account Number: ${userinfo.accountnumber}`,
         "Loan Request",
-        "bitmaxexchange76@gmail.com",
+        "trustpayd@gmail.com",
         "Admin"
       )
         .then(() => {
