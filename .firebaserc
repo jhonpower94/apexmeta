@@ -5,7 +5,8 @@
     "saptrust": "saptrust-6a083",
     "sp": "saptrust-6a083",
     "bm": "bitmax-49d16",
-    "bt": "bitmax-49d16"
+    "bt": "bitmax-49d16",
+    "tp": "trustpay-27694"
   },
   "targets": {
     "tdbank-ea163": {
