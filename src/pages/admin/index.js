@@ -7,7 +7,6 @@ import { navigate } from "@reach/router";
 import { doc, getDoc } from "firebase/firestore";
 import PropTypes from "prop-types";
 import * as React from "react";
-import { docData } from "rxfire/firestore";
 import { db, loggedIn$ } from "../../config/firebaseinit";
 
 const drawerWidth = 240;
@@ -56,7 +55,7 @@ function AdminIndex(props) {
       <AppBar position="fixed" elevation={0}>
         <Toolbar>
           <Typography variant="h6" noWrap component="div">
-            Bitmax admin
+            Trustpayd admin
           </Typography>
         </Toolbar>
       </AppBar>

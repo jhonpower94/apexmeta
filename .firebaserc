@@ -36,6 +36,13 @@
           "bitmaxaccount"
         ]
       }
+    },
+    "trustpay-27694": {
+      "hosting": {
+        "tp": [
+          "trustpaydaccount"
+        ]
+      }
     }
   }
 }
