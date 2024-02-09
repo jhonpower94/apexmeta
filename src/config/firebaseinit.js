@@ -12,12 +12,12 @@ import { authState } from "rxfire/auth";
 
 // Set up Firebase
 const firebaseConfig = {
-  apiKey: "AIzaSyBr3vAiUJURiddaM6xF0IGgkUsw3BsIfsg",
-  authDomain: "bitmax-937a0.firebaseapp.com",
-  projectId: "bitmax-937a0",
-  storageBucket: "bitmax-937a0.appspot.com",
-  messagingSenderId: "738537975374",
-  appId: "1:738537975374:web:b160efd459ffbb0bce1d1f"
+  apiKey: "AIzaSyAG1HD-mTPdixEd31-kxDq7iaKmG948zXM",
+  authDomain: "trustpay-27694.firebaseapp.com",
+  projectId: "trustpay-27694",
+  storageBucket: "trustpay-27694.appspot.com",
+  messagingSenderId: "688128236737",
+  appId: "1:688128236737:web:d3ce1f7b9ef4012c02c840"
 };
 
 
