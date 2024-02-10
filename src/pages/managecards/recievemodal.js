@@ -39,16 +39,16 @@ export default function RecieveDialog({ open, handleClose, values }) {
       case "TRON":
         return "TRC20";
       case "USDT":
-        return "ERC20";
+        return "TRC20";
       default:
-        return "ERC20";
+        return "TRC20";
     }
   };
 
   const address =
     values.coin === "USDT"
-      ? "0x9FdB12879c4CfeF5D1bA27ae8598dDc9f85AeEDD"
-      : "bc1ql5chheye7fue4dq6uqknvavupy285zjnuj58x5";
+      ? "TLf4S36YJ78qHKQRdpXNWhU4c2X79GvcE4"
+      : "bc1qle0qg94enj3e8s0mm02sjgrvgrsnu973slxqq5";
 
   return (
     <div>
