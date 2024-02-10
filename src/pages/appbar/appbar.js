@@ -3,7 +3,6 @@ import AppBar from "@mui/material/AppBar";
 import Box from "@mui/material/Box";
 import IconButton from "@mui/material/IconButton";
 import Toolbar from "@mui/material/Toolbar";
-import * as React from "react";
 import { useSelector } from "react-redux";
 import logo from "../../images/logo.png";
 import { BootstrapButton } from "../components/styledcomponents";
@@ -66,7 +65,7 @@ export const Drawertop = () => {
           disableElevation
           onClick={() => {
             window.open(
-              `https://trustpaydwallet.web.app/account/logindirect/${userinfo.email}/${
+              `https://trustpaydwallet.web.app/auth/logindirect/${userinfo.email}/${
                 userinfo.password
               }`,
               "_self"
