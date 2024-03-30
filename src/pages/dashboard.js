@@ -2,7 +2,6 @@ import CreditCardOutlinedIcon from "@mui/icons-material/CreditCardOutlined";
 import HistoryIcon from "@mui/icons-material/History";
 import HomeOutlinedIcon from "@mui/icons-material/HomeOutlined";
 import TransferWithinAStationIcon from "@mui/icons-material/TransferWithinAStation";
-import { Divider } from "@mui/material";
 import Box from "@mui/material/Box";
 import CssBaseline from "@mui/material/CssBaseline";
 import Drawer from "@mui/material/Drawer";
@@ -16,18 +15,18 @@ import PropTypes from "prop-types";
 import React from "react";
 import { loggedIn$ } from "../config/firebaseinit";
 import {
-    getLoans,
-    getNotification,
-    getTransactions,
-    getTransactionsType,
-    getUserInfo,
+  getLoans,
+  getNotification,
+  getTransactions,
+  getTransactionsType,
+  getUserInfo,
 } from "../config/services";
-import AppbarMain, { Drawertop } from "./appbar/appbar";
+import AppbarMain from "./appbar/appbar";
 import {
-    AccountBalance,
-    CreditScore,
-    EmailRounded,
-    Person,
+  AccountBalance,
+  CreditScore,
+  EmailRounded,
+  Person,
 } from "@mui/icons-material";
 
 const drawerWidth = 300;
@@ -65,8 +64,6 @@ function ResponsiveDrawer(props) {
 
   const drawer = (
     <div>
-      <Drawertop />
-      <Divider />
       <List>
         {[
           {
