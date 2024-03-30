@@ -16,18 +16,18 @@ import PropTypes from "prop-types";
 import React from "react";
 import { loggedIn$ } from "../config/firebaseinit";
 import {
-  getLoans,
-  getNotification,
-  getTransactions,
-  getTransactionsType,
-  getUserInfo,
+    getLoans,
+    getNotification,
+    getTransactions,
+    getTransactionsType,
+    getUserInfo,
 } from "../config/services";
 import AppbarMain, { Drawertop } from "./appbar/appbar";
 import {
-  AccountBalance,
-  CreditScore,
-  EmailRounded,
-  Person,
+    AccountBalance,
+    CreditScore,
+    EmailRounded,
+    Person,
 } from "@mui/icons-material";
 
 const drawerWidth = 300;
@@ -118,7 +118,7 @@ function ResponsiveDrawer(props) {
           </ListItemButton>
         ))}
         <a
-          href="mailto:trustpayd@gmail.com"
+          href="mailto:support@apexmetagroup"
           style={{ textDecoration: "none", color: "inherit" }}
         >
           <ListItemButton>

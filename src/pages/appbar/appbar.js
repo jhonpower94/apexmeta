@@ -37,7 +37,7 @@ export default function AppbarMain({ handleDrawer }) {
         >
           <MenuIconCustom />
         </IconButton>
-        <img src={logo} height={30} alt="Enrichement FCU" />
+        <img src={logo} height={30} alt="Apexmeta" />
         <Box sx={{ flexGrow: 1 }} />
         <Menus />
       </Toolbar>

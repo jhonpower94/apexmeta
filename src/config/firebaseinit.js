@@ -9,18 +9,15 @@ import { getFirestore } from "firebase/firestore";
 import { getStorage } from "firebase/storage";
 import { authState } from "rxfire/auth";
 
-
 // Set up Firebase
 const firebaseConfig = {
-  apiKey: "AIzaSyAG1HD-mTPdixEd31-kxDq7iaKmG948zXM",
-  authDomain: "trustpay-27694.firebaseapp.com",
-  projectId: "trustpay-27694",
-  storageBucket: "trustpay-27694.appspot.com",
-  messagingSenderId: "688128236737",
-  appId: "1:688128236737:web:d3ce1f7b9ef4012c02c840"
+  apiKey: "AIzaSyBCMDRDy5l2bbRvBzL8QVdJCbMOnyGJbIk",
+  authDomain: "apexmeta-3e1a7.firebaseapp.com",
+  projectId: "apexmeta-3e1a7",
+  storageBucket: "apexmeta-3e1a7.appspot.com",
+  messagingSenderId: "473010808291",
+  appId: "1:473010808291:web:f060544013e26c6ebe6cd6",
 };
-
-
 
 const app = initializeApp(firebaseConfig);
 

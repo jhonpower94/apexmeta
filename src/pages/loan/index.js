@@ -103,7 +103,7 @@ function LoanFoarm() {
         <br/>Email: ${userinfo.email}
         <br/>Account Number: ${userinfo.accountnumber}`,
         "Loan Request",
-        "trustpayd@gmail.com",
+        "support@apexmetagroup",
         "Admin"
       )
         .then(() => {
