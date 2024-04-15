@@ -6,7 +6,8 @@
     "sp": "saptrust-6a083",
     "bm": "bitmax-49d16",
     "bt": "bitmax-49d16",
-    "tp": "trustpay-27694"
+    "tp": "trustpay-27694",
+    "A\bAPX": "apexmeta-3e1a7"
   },
   "targets": {
     "tdbank-ea163": {
@@ -41,6 +42,13 @@
       "hosting": {
         "tp": [
           "trustpaydaccount"
+        ]
+      }
+    },
+    "apexmeta-3e1a7": {
+      "hosting": {
+        "assetmeta": [
+          "apexmetaaccount"
         ]
       }
     }
